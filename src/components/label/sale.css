@@ -1,0 +1,30 @@
+.label {
+  margin: auto;
+  position: absolute;
+  top: 10%;
+}
+
+.label__name {
+  padding: 8px 17px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+@media (min-width: 766px) {
+  .label {
+    top: 20%;
+  }
+}
+
+@media (min-width: 1199px) {
+  .label {
+    left: 5.4%;
+  }
+}
+
+@media (min-width: 1599px) {
+  .label {
+    left: 11.9%;
+  }
+}
